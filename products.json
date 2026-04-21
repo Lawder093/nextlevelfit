@@ -1,0 +1,34 @@
+[
+  {
+    "id": 1,
+    "name": "Whey Gold",
+    "price": 799,
+    "category": "proteina",
+    "image": "https://images.unsplash.com/photo-1607619056574-7b8d3ee536b2?q=80&w=600&auto=format&fit=crop",
+    "description": "Proteína premium para recuperación muscular."
+  },
+  {
+    "id": 2,
+    "name": "Creatina Max",
+    "price": 499,
+    "category": "suplemento",
+    "image": "https://images.unsplash.com/photo-1579722821273-0f6c7d44362f?q=80&w=600&auto=format&fit=crop",
+    "description": "Creatina micronizada de alta pureza."
+  },
+  {
+    "id": 3,
+    "name": "Burn X",
+    "price": 599,
+    "category": "peso",
+    "image": "https://images.unsplash.com/photo-1517838277536-f5f99be501cd?q=80&w=600&auto=format&fit=crop",
+    "description": "Apoyo para control de peso y energía."
+  },
+  {
+    "id": 4,
+    "name": "Mass Power",
+    "price": 899,
+    "category": "proteina",
+    "image": "https://images.unsplash.com/photo-1594737625785-a6cbdabd333c?q=80&w=600&auto=format&fit=crop",
+    "description": "Ganancia calórica para volumen."
+  }
+]

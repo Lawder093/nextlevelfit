@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Next Level Fit</title>
+  <link rel="stylesheet" href="css/style.css" />
+</head>
+
+<body>
+
+  <!-- NAVBAR -->
+  <header>
+    <nav class="navbar">
+      <div class="brand">Next Level Fit</div>
+
+      <ul class="nav-links">
+        <li><a href="#inicio">Inicio</a></li>
+        <li><a href="#" data-filter="proteina">Proteínas</a></li>
+        <li><a href="#" data-filter="suplemento">Suplementos</a></li>
+        <li><a href="#" data-filter="peso">Bajar de Peso</a></li>
+        <li><a href="#" id="show-all">Todos</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <!-- HERO -->
+  <section class="hero" id="inicio">
+    <div class="slider">
+      <img src="https://images.unsplash.com/photo-1517836357463-d25dfeac3438?q=80&w=1400&auto=format&fit=crop" class="active" alt="slide1">
+      <img src="https://images.unsplash.com/photo-1534438327276-14e5300c3a48?q=80&w=1400&auto=format&fit=crop" alt="slide2">
+      <img src="https://images.unsplash.com/photo-1571019614242-c5c5dee9f50b?q=80&w=1400&auto=format&fit=crop" alt="slide3">
+    </div>
+
+    <div class="hero-overlay">
+      <h1>SUPERA TU SIGUIENTE NIVEL</h1>
+      <p>Nutrición deportiva enfocada en resultados reales.</p>
+    </div>
+  </section>
+
+  <!-- INFO -->
+  <section class="info-grid">
+    <article class="info-card">
+      <h2>Nosotros</h2>
+      <p>Next Level Fit ofrece suplementos pensados para rendimiento, recuperación y disciplina constante.</p>
+    </article>
+
+    <article class="info-card">
+      <h2>Tecnologías</h2>
+      <p>Proteína isolate, creatina micronizada y fórmulas optimizadas para absorción eficiente.</p>
+    </article>
+
+    <article class="info-card">
+      <h2>Testimonios</h2>
+      <p>“Excelente servicio y productos sólidos. Recomiendo la creatina.”</p>
+    </article>
+  </section>
+
+  <!-- CATALOGO -->
+  <main class="catalog-section">
+    <h2 class="section-title">Catálogo</h2>
+    <div id="catalog" class="catalog"></div>
+  </main>
+
+  <!-- FOOTER -->
+  <footer class="footer">
+    <p>Next Level Fit © 2026</p>
+  </footer>
+
+  <!-- SCRIPTS -->
+  <script src="js/app.js"></script>
+  <script src="js/filter.js"></script>
+  <script src="js/slider.js"></script>
+  <script src="js/whatsapp.js"></script>
+
+</body>
+</html>
